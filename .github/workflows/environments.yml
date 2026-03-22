@@ -2,7 +2,7 @@ name: Environments
 on:
   workflow_dispatch:
     inputs:
-      environments-name:
+      environment-name:
         type: environment
         default: test
         required: false
